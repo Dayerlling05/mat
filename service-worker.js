@@ -3,7 +3,8 @@ const ARCHIVOS_CACHE = [
   '/',
   '/index.html',
   '/style.css',
-  '/script.js'
+  '/script.js',
+  '/manifest.json',
 ];
 
 self.addEventListener('install', event => {

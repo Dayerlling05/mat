@@ -59,6 +59,10 @@ async function iniciar() {
     gradoSelect.appendChild(option);
   });
 
+    for (const grado of grados) {
+    await obtenerTemas(grado.id); // Esto ya guarda en localStorage internamente
+  }
+  
   temaSelect.innerHTML = '<option value="">-- Primero elige un grado --</option>';
   temaSelect.disabled = true;
   tituloTema.textContent = '';
