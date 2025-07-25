@@ -1,12 +1,12 @@
 const CACHE_NAME = 'mi-app-cache-v5';
 const ARCHIVOS_CACHE = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/script.js',
-  '/manifest.json',
-  '/imagenes/imagen1.png',
-  '/imagenes/imagen2.png'
+  '/mat/',
+  '/mat/index.html',
+  '/mat/style.css',
+  '/mat/script.js',
+  '/mat/manifest.json',
+  '/mat/imagenes/imagen1.png',
+  '/mat/imagenes/imagen2.png'
 ];
 
 self.addEventListener('install', event => {

@@ -2,7 +2,9 @@
   "id": "/",
   "name": "App Educativa - Matemáticas",
   "short_name": "Matemáticas",
-  "start_url": ".",
+  "start_url": "/mat/",
+  "scope": "/mat/",
+  "lang": "es",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007acc",
@@ -10,12 +12,12 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/imagenes/imagen2.png",
+      "src": "/mat//imagenes/imagen2.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/imagenes/imagen1.png",
+      "src": "/mat//imagenes/imagen1.png",
       "sizes": "512x512",
       "type": "image/png"
     }
