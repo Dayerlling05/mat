@@ -17,7 +17,7 @@ function cargarDatos(key) {
 async function obtenerGrados() {
   try {
     const res = await fetch('https://jsonplaceholder.typicode.com/users');
-    if (!res.ok) throw new Error('Error al obtener grados');
+    if (!res.ok) throw new Error('Error al obtener nombres');
     const data = await res.json();
     guardarDatos('grados', data);
     return data;
@@ -51,7 +51,7 @@ async function obtenerTemas(gradoId) {
 async function iniciar() {
   const grados = await obtenerGrados();
 
-  gradoSelect.innerHTML = '<option value="">-- Elige un grado --</option>';
+  gradoSelect.innerHTML = '<option value="">-- Elige un nombre --</option>';
   grados.forEach(grado => {
     const option = document.createElement('option');
     option.value = grado.id;
@@ -62,8 +62,8 @@ async function iniciar() {
     for (const grado of grados) {
     await obtenerTemas(grado.id); // Esto ya guarda en localStorage internamente
   }
-  
-  temaSelect.innerHTML = '<option value="">-- Primero elige un grado --</option>';
+
+  temaSelect.innerHTML = '<option value="">-- Primero elige un nombre --</option>';
   temaSelect.disabled = true;
   tituloTema.textContent = '';
   descripcion.textContent = '';
