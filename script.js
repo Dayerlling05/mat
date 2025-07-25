@@ -45,9 +45,27 @@ async function obtenerTemas(gradoId) {
   }
 }
 
-// No hay ejercicios reales en esta API, pero usamos posts como "ejercicios" con título y body
+let deferredPrompt;
+const btnInstall = document.getElementById('btnInstall');
 
-// Al iniciar carga los grados
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+  btnInstall.hidden = false;
+});
+
+btnInstall.addEventListener('click', () => {
+  deferredPrompt.prompt();
+  deferredPrompt.userChoice.then((choiceResult) => {
+    if (choiceResult.outcome === 'accepted') {
+      console.log('App instalada');
+    }
+    deferredPrompt = null;
+    btnInstall.hidden = true;
+  });
+});
+
+
 async function iniciar() {
   const grados = await obtenerGrados();
 
