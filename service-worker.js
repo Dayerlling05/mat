@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mi-app-cache-v5';
+const CACHE_NAME = 'mi-app-cache-v6';
 const ARCHIVOS_CACHE = [
   '/mat/',
   '/mat/index.html',
