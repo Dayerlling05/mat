@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MATH</title>
+  <link rel="manifest" href="manifest.json" />
+   <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📘 Matemáticas Interactivas</h1>
+
+  <div class="selector">
+    <label for="grado">Selecciona el grado:</label>
+    <select id="grado">
+      <option value="">-- Elige un grado --</option>
+      <option value="5">5to Grado</option>
+      <option value="6">6to Grado</option>
+    </select>
+
+    <label for="tema">Selecciona un tema:</label>
+    <select id="tema" disabled>
+      <option value="">-- Primero elige un grado --</option>
+    </select>
+  </div>
+
+  <div id="contenido">
+    <h2 id="titulo-tema"></h2>
+    <p id="descripcion"></p>
+    <div id="ejercicios"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

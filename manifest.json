@@ -1,0 +1,21 @@
+{
+  "name": "App Educativa - Matemáticas",
+  "short_name": "Matemáticas",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007acc",
+  "description": "Aplicación educativa de matemáticas que funciona offline",
+  "icons": [
+    {
+      "src": "/imagenes/imagen2.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/imagenes/imagen1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #007acc;
+}
+
+.selector {
+  margin: 20px auto;
+  text-align: center;
+}
+
+select {
+  padding: 10px;
+  margin: 0 10px;
+}
+
+#contenido {
+  margin-top: 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ejercicio {
+  background: #eef;
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 5px solid #007acc;
+}
