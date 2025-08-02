@@ -1,23 +1,23 @@
 {
   "id": "/",
-  "name": "App Educativa - Matemáticas",
-  "short_name": "Matemáticas",
-  "start_url": "/mat/",
-  "scope": "/mat/",
+  "name": "App Educativa",
+  "short_name": "FormuClass",
+  "start_url": "inicio.html",
+  "scope": "/formuclass/",
   "lang": "es",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#007acc",
-  "description": "Aplicación educativa de matemáticas que funciona offline",
+  "theme_color": "#0e7acc",
+  "description": "Aplicación educativa que funciona offline",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/mat//imagenes/imagen2.png",
+      "src": "/formuclass//imagenes/imagen2.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/mat//imagenes/imagen1.png",
+      "src": "/formuclass//imagenes/imagen1.png",
       "sizes": "512x512",
       "type": "image/png"
     }

@@ -1,35 +1,54 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f9f9f9;
   color: #333;
-  padding: 20px;
+}
+nav{
+  margin: -7px;
+  padding: 1em 2em;
+  display: flex;
+  box-shadow: 0px 4px 4px -5px gray;
+}
+img{
+  width: 2em;
+  height: 2em;
+}
+.nombre{
+  margin-left: 1em;
+  margin-top: 0.5em;
+  font-weight: bold;
+  color: rgb(119, 112, 112);
 }
 
-h1 {
+main{
+  padding-top: 5em;
+}
+.descarga{
   text-align: center;
-  color: #007acc;
 }
-
-.selector {
-  margin: 20px auto;
+#img2{
+  width: 5em;
+  height: 5em;
+}
+#btnInstall{
+  font-size: 20px;
+  padding: 1em;
   text-align: center;
+  border-radius: 50px;
+  background: rgb(211, 211, 235);
 }
-
-select {
-  padding: 10px;
-  margin: 0 10px;
+.informacion{
+  margin-top: 40px;
+  padding: 1.5em;
+  font-size: 18px;
 }
-
-#contenido {
-  margin-top: 30px;
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
+ul{
+  list-style: none;
 }
+li{
+  margin-bottom: 10px;
+}
+li::before{
+  content: "💠";
+  margin-right: 15px;
 
-.ejercicio {
-  background: #eef;
-  margin: 10px 0;
-  padding: 10px;
-  border-left: 5px solid #007acc;
 }
