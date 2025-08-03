@@ -1,8 +1,3 @@
-const gradoSelect = document.getElementById("grado");
-const temaSelect = document.getElementById("tema");
-const tituloTema = document.getElementById("titulo-tema");
-const descripcion = document.getElementById("descripcion");
-const ejerciciosDiv = document.getElementById("ejercicios");
 
 function guardarDatos(key, data) {
   localStorage.setItem(key, JSON.stringify(data));
