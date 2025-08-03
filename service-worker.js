@@ -1,13 +1,13 @@
 const CACHE_NAME = 'mi-app-cache-v6';
 const ARCHIVOS_CACHE = [
-  '/formuclass/',
-  '/formuclass/index.html',
-  '/formuclass/saludo.html',
-  '/formuclass/style.css',
-  '/formuclass/script.js',
-  '/formuclass/manifest.json',
-  '/formuclass/imagenes/imagen1.png',
-  '/formuclass/imagenes/imagen2.png'
+  '/mat/',
+  '/mat/index.html',
+  '/mat/saludo.html',
+  '/mat/style.css',
+  '/mat/script.js',
+  '/mat/manifest.json',
+  '/mat/imagenes/imagen1.png',
+  '/mat/imagenes/imagen2.png'
 ];
 
 self.addEventListener('install', event => {
