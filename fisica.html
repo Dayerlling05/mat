@@ -1,42 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/stylEjercicio.css">
-    <title>Ejercicios</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ejercicios de Física | MRU</title>
+  <link rel="stylesheet" href="/css/stylEjercicio.css" />
 </head>
-
 <body>
-    <nav>
-        <div class="ejer">
-            <h2>Ejercicios</h2>
-        </div>
-    </nav>
-    <main>
-        <div class="buscar">
-            <!-- <input type="search" name="tema" id="temas"> -->
-        </div>
-        <div class="filtrar">
-            <select name="tema" id="tema">
-                <option value="">Temas</option>
-                <option value="MRU">MRU</option>
-                <option value="MRUV">MRUV</option>
-            </select>
-        </div>
-        <div class="con">
-            <div id="ejercicios">
-            </div>
-            <div id="imagen">
-            </div>
-            <div id="solucion">
-                
-            </div>
+  <header class="header">
+    <div class="container">
+      <h1>Física</h1>
+      <p class="subtitulo">Unidad: Movimiento Rectilíneo Uniforme (MRU)</p>
+    </div>
+  </header>
 
-        </div>
-    </main>
-    <script src="/script/scriptAsignatura.js"></script>
+  <section class="filtro container">
+    <label for="tema">Selecciona un tema:</label>
+    <select id="tema">
+      <option value="">-- Selecciona --</option>
+      <option value="Explicacion">Explicación</option>
+      <option value="MRU">MRU</option>
+    </select>
+  </section>
+
+  <main id="con" class="container">
+    <!-- Aquí se mostrarán los ejercicios dinámicamente -->
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Dayerling | Plataforma Educativa de Física</p>
+    </div>
+  </footer>
+
+  <script src="/script/scriptAsignatura.js"></script>
 </body>
-
 </html>

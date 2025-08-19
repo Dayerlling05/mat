@@ -1,80 +1,112 @@
-
-body {
+/* Reset básico */
+* {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+  color: #2c3e50;
+}
+
+/* Navegación */
 nav {
   position: relative;
-  width: 100%;
-  height: 80px;
-  color: #D6680B;
-  display: flex;
-  align-items: center;
-  padding: 0 1rem;
-  box-sizing: border-box;
-  box-shadow: 0 0 20PX 0 #424242;
-}
-.atras {
-  z-index: 1;
+  background-color: #1a2b4c;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
 }
 
-.atras img {
-  width: 35px;
-  height: 35px;
-  display: block;
-}
-
-.asig {
+/* Botón de atrás */
+nav .atras {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+nav .atras img {
+  width: 32px;
+  height: auto;
+  cursor: pointer;
+  background: rgb(247, 243, 243);
+}
+
+/* Título centrado */
+nav .asig h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
   margin: 0;
-  font-size: 20px;
-  font-weight: bold;
 }
 
-@media screen and (min-width:1024px) {
-
-.atras{
-    padding-left: 90px;
+/* Contenido principal */
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
 }
+
+/* Tarjetas de asignatura */
+.item {
+  background-color: #ffffff;
+  border: 1px solid #dfe6ed;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-@media screen and (max-width: 1023px) {
-    .atras {
-        padding-left: 18px;
-    }
-    button {
-        background: none;
-        justify-content: center;
-        border-style: none;
-    }
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
 
-    button img {
-        border-style: none;
-        background: none;
-        width: 20px;
-        height: 20px;
-    }
-    main{
-     padding: 50px 50px 0 50px;
-     display: grid;
-     height: 100vh;
-     grid-template-rows: repeat(4,1fr);
-     grid-template-columns: repeat(1,2fr);
-    }
-    main img{
-        width: 9rem;
-        height: 9rem;
-        margin-top: 50px;
+.item img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
 
-    }
-    .item{
-        padding: 1rem;
-        text-align: center;
-         background: linear-gradient(135deg, #ffff 0%, #acb6c7 100%);
-    }
-    
-} 
+.item h2 {
+  font-size: 1.2rem;
+  color: #1a2b4c;
+  margin-top: 10px;
+}
+
+/* Responsive ajustes */
+@media (max-width: 600px) {
+  nav {
+    padding: 15px;
+  }
+
+  nav .atras {
+    left: 10px;
+  }
+
+  nav .asig h2 {
+    font-size: 1.4rem;
+  }
+
+  main {
+    padding: 20px 10px;
+    gap: 20px;
+  }
+
+  .item {
+    padding: 15px;
+  }
+
+  .item img {
+    max-height: 140px;
+  }
+}
