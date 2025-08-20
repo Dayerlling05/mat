@@ -2,7 +2,7 @@
   "id": "/",
   "name": "App Educativa",
   "short_name": "FormuClass",
-  "start_url": "/mat/inicio.html",
+  "start_url": "inicio.html",
   "scope": "/mat/",
   "lang": "es",
   "display": "standalone",
