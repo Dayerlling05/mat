@@ -29,20 +29,8 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request).then(resp => {
-      return resp || fetch(event.request).then(response => {
-       
-        if (event.request.destination === 'image') {
-          caches.open(CACHE_NAME).then(cache => {
-            cache.put(event.request, response.clone());
-          });
-        }
-        return response;
-      }).catch(() => {
-        if (event.request.destination === 'image') {
-          return caches.match('/mat/imagenes/imagen1.png'); 
-        }
-      });
+    caches.match(event.request).then(respCache => {
+      return respCache || fetch(event.request);
     })
   );
 });
