@@ -2,7 +2,7 @@ const ejercicios = [
     {
         tema: "Explicacion",
         enunciado: "El Movimiento Rectilineo Uniforme (MRU) es un tipo de movimiento en el que un objeto se desplaza en línea recta con velocidad constante. En este contexto, la velocidad se mantiene invariable a lo largo del tiempo, lo que implica que no hay aceleración. Este concepto fundamental en la cinemática nos permite comprender y analizar el comportamiento de los objetos en movimiento rectilíneo bajo condiciones especificas. Para profundizar en la comprensión de este fenómeno, hemos preparado una serie de ejercicios resueltos que abarcan diferentes aspectos del MRU.Estos problemas proporcionarán la oportunidad de aplicar las fórmulas y conceptos asociados con el MRU, como la relación entre posición, velocidad y tiempo. Estos ejercicios resueltos buscan proporcionar una herramienta efectiva para consolidar los conocimientos adquiridos en el estudio del MRU, así como para mejorar las habilidades de resolución de problemas relacionados con este tipo de movimiento. ¡Adelante, sumérgete en el mundo del Movimiento Rectilíneo Uniforme y fortalece tus habilidades en cinemática!",
-        imagen: "/imagenes/MRU.png"
+        imagen: "../imagenes/MRU.png"
     },
     {
         tema: "MRU",
