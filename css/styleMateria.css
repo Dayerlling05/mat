@@ -32,7 +32,6 @@ nav .atras img {
   width: 32px;
   height: auto;
   cursor: pointer;
-  background: rgb(247, 243, 243);
 }
 
 /* Título centrado */
@@ -82,6 +81,16 @@ main {
   color: #1a2b4c;
   margin-top: 10px;
 }
+
+.footer {
+  background-color: #1a2b4c;
+  color: #dbe4f0;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
 
 /* Responsive ajustes */
 @media (max-width: 600px) {
