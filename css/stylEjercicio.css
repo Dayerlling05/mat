@@ -103,7 +103,7 @@ select {
 img.imagen {
   display: block;
   max-width: 600px;
-  width: 40%;
+  width: 15%;
   height: auto;
   margin: 10px auto;
   border-radius: 6px;
@@ -111,11 +111,12 @@ img.imagen {
 }
 
 img.isolucion {
+  background: red;
   display: block;
   max-width: 400px;
-  width: 50%;
+  width: 12%;
   height: auto;
-  margin: 10px auto;
+  margin: 15px auto;
   border-radius: 6px;
   border: 1px solid #ccc;
 }
