@@ -103,7 +103,7 @@ select {
 img.imagen {
   display: block;
   max-width: 600px;
-  width: 15%;
+  width: 40%;
   height: auto;
   margin: 10px auto;
   border-radius: 6px;
@@ -111,10 +111,9 @@ img.imagen {
 }
 
 img.isolucion {
-  background: red;
   display: block;
   max-width: 400px;
-  width: 12%;
+  width: 18%;
   height: auto;
   margin: 15px auto;
   border-radius: 6px;
@@ -142,10 +141,10 @@ img.isolucion {
   margin-bottom: 10px;
 }
 
-.footer {
+footer {
+  text-align: center;
   background-color: #1a2b4c;
   color: #dbe4f0;
-  text-align: center;
   padding: 20px 0;
   margin-top: 40px;
   font-size: 0.9rem;
@@ -165,4 +164,23 @@ img.isolucion {
     width: 100%;
     margin-top: 10px;
   }
+  
+img.imagen {
+  display: block;
+  max-width: 600px;
+  width: 50%;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+img.isolucion {
+  display: block;
+  max-width: 400px;
+  width: 82%;
+  height: auto;
+  margin: 15px auto;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
 }
