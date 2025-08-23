@@ -103,7 +103,7 @@ select {
 img.imagen {
   display: block;
   max-width: 600px;
-  width: 40%;
+  width: 30%;
   height: auto;
   margin: 10px auto;
   border-radius: 6px;

@@ -146,20 +146,114 @@ const ejercicios = [
   {
     tema: "MRUV",
     enunciado:"¿Cuánto tiempo tardará un automóvil en alcanzar una velocidad de 60 km/h, si parte del reposo con una aceleracion de 20km/h^2?",
-    imagen: "imagenes/tp2.webp",
+    imagen: "imagenes/mruvE1.jpg",
     solucion: [
       {
-        infor: "Establecemos las direcciones hacia abajo y a la derecha como positivas; con ello, la aceleración vertical es",
-        imagen: "imagenes/tp6.png"
+        infor: "Utilizando la fórmula de la cinemática",
+        imagen: "imagenes/mruvE3.png"
       },
       {
-        infor: "La aceleración horizontal siempre es cero, por lo que la velocidad horizontal es constante. Indicamos los datos conocidos",
-        imagen: "imagenes/tp7.png"
+        infor: "Sustituyendo los valores dados:",
+        imagen: "imagenes/mruvE4.png"
       },
 
       {
-        infor: "Para calcular la distancia que recorre la caja en 2 segundos, usamos la fórmula",
-        imagen: "imagenes/tp8.png"
+        infor: "Resolviendo la ecuación para encontrar el tiempo t",
+        imagen: "imagenes/mruvE5.png"
+      },
+      {
+        infor:"Simplificando la expresión: t = 3h"
+      }
+    ]
+  },
+   {
+    tema: "MRUV",
+    enunciado:"Un móvil parte de reposo con una aceleración de 20 m/s^2 constante. Calcular: a) ¿Qué velocidad tendrá de 15 segundos? b) ¿Qué espacio recorrió en esos 15 segundos?",
+    imagen: "imagenes/mruvE15.png",
+    solucion: [
+      {
+        infor: "Identificar los datos proporcionados. La aceleración a es de 20 m/s^2 y el tiempo t es de 15s",
+        imagen: ""
+      },
+      {
+        infor: "Calcular la velocidad final vf utilizando la fórmula de la velocidad en función del tiempo y la aceleración:",
+        imagen: "imagenes/mruvE6.png"
+      },
+
+      {
+        infor: "Como el móvil parte del reposo",
+        imagen: "imagenes/mruvE12.png"
+      },
+      {
+        infor:"Entonces:",
+        imagen:"imagenes/mruvE13.png"
+      },
+      {
+        infor:"Sustituir los valores conocidos en la fórmula:",
+        imagen:"imagenes/mruvE7.png"
+      },
+      {
+        infor:"Obteniendo como velocidad final:",
+        imagen:"imagenes/mruvE14.png"
+      },
+      {
+        infor:"Calcular el espacio recorrido x utilizando la fórmula del espacio en función del tiempo y la aceleración:",
+        imagen:"imagenes/mruvE8.png"
+      },
+      {
+        infor:"Como velocidad inicial es 0m/s, la fórmula se simplifica a:",
+        imagen:"imagenes/mruvE9.png"
+      },
+      {
+        infor:"Sustituir los valores conocidos en la fórmula simplificada:",
+        imagen:"imagenes/mruvE10.png"
+      },
+      {
+        infor:"Siendo",
+        imagen:"imagenes/mruvE11.png"
+      },
+      {
+        infor:"Por lo tanto, la velocidad final después de 15s es de 300m/s y el espacio recorrido en esos 15s es de 2250m.",
+        imagen:""
+      }
+    ]
+  },
+  {
+    tema: "MRUV",
+    enunciado:"Un auto parte del reposo y tarda 10s en recorrer 20m. ¿Que tiempo necesitara para alcanzar 40km/h?",
+    imagen: "imagenes/mruvE23.png",
+    solucion: [
+      {
+        infor:"Usamos la fórmula del movimiento rectilíneo uniformemente acelerado:",
+        imagen: "imagenes/mruvE16.png"
+      },
+      {
+        infor:"Como 𝑣0= 0 queda:",
+        imagen:"imagenes/mruvE17.png"
+      },
+      {
+        infor:"Entonces",
+        imagen:"imagenes/mruvE18.png"
+      },
+      {
+        infor:"Quedando como resultado:",
+        imagen:"imagenes/mruvE19.png"
+      },
+      {
+        infor:"Convertimos km/h a m/s",
+        imagen:"imagenes/mruvE20.png"
+      },
+      {
+        infor:"Para calcular el tiempo usamos la fórmula:",
+        imagen:"imagenes/mruvE21.png"
+      },
+      {
+        infor:"El tiempo es de",
+        imagen:"imagenes/mruvE22.png"
+      },
+      {
+        infor:"El auto necesitará aproximadamente 27.78 segundos para alcanzar una velocidad de 40 km/h con aceleración constante.",
+        imagen:""
       }
     ]
   },
