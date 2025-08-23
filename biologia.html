@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biología | Reproducción, ADN y Selección</title>
+  <link rel="stylesheet" href="css/styleQuimica.css" />
+  <style>
+    .respuesta {
+      display: none;
+      margin-top: 15px;
+    }
+
+    .mostrar-btn {
+      background-color: #1a2b4c;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: background-color 0.3s ease;
+      margin-top: 15px;
+    }
+
+    .mostrar-btn:hover {
+      background-color: #2c3e70;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="encabezado-container">
+      <a href="Biologia.html" class="regresar">
+        <img src="imagenes/flecha.png" alt="Regresar" />
+      </a>
+      <h1 class="titulo">Biología: Reproducción y Genética</h1>
+    </div>
+  </header>
+
+  <main class="container1">
+
+    <!-- Ejercicio 1 -->
+    <div class="ejercicio">
+      <h3>Ejercicio 1: Reproducción humana</h3>
+      <p>Menciona tres diferencias entre la reproducción masculina y femenina:</p>
+      <button class="mostrar-btn" onclick="toggleRespuesta('resp1')">Mostrar respuesta</button>
+      <div class="respuesta" id="resp1"  style="overflow-x: auto; margin-top: 15px;">
+        <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+          <thead>
+            <tr style="background-color: #f0f4f8;">
+              <th style="padding: 8px; border: 1px solid #ccc;">Característica</th>
+              <th style="padding: 8px; border: 1px solid #ccc;">Masculina</th>
+              <th style="padding: 8px; border: 1px solid #ccc;">Femenina</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ccc;">Célula sexual producida</td>
+              <td style="padding: 8px; border: 1px solid #ccc;">Espermatozoides</td>
+              <td style="padding: 8px; border: 1px solid #ccc;">Óvulos</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ccc;">Lugar de producción</td>
+              <td style="padding: 8px; border: 1px solid #ccc;">Testículos</td>
+              <td style="padding: 8px; border: 1px solid #ccc;">Ovarios</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ccc;">Hormona principal</td>
+              <td style="padding: 8px; border: 1px solid #ccc;">Testosterona</td>
+              <td style="padding: 8px; border: 1px solid #ccc;">Estrógeno y progesterona</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Ejercicio 2-->
+    <div class="ejercicio">
+      <h3>Ejercicio 2: ADN y ARN</h3>
+      <p>Convierte la siguiente cadena de ADN en su cadena complementaria de ARN:</p>
+      <p><strong>ADN:</strong> TAC GGA CTT</p>
+      <button class="mostrar-btn" onclick="toggleRespuesta('resp2')">Mostrar respuesta</button>
+      <div class="respuesta" id="resp2">
+        <p><strong>1. Complementaria de ADN:</strong> ATG CCT GAA</p>
+        <p><strong>2. Transcripción a ARN:</strong> AUG CCU GAA</p>
+        <p><strong>ARN resultante:</strong> AUG CCU GAA</p>
+      </div>
+    </div>
+
+    <!-- Ejercicio 3 -->
+    <div class="ejercicio">
+      <h3>Ejercicio 3: Selección natural vs. artificial</h3>
+      <p>Explica la diferencia entre selección natural y selección artificial:</p>
+      <button class="mostrar-btn" onclick="toggleRespuesta('resp3')">Mostrar respuesta</button>
+      <div class="respuesta" id="resp3">
+        <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+          <thead>
+            <tr style="background-color: #f0f4f8;">
+              <th style="padding: 8px; border: 1px solid #ccc;">Tipo de selección</th>
+              <th style="padding: 8px; border: 1px solid #ccc;">Explicación breve</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ccc;">Selección natural</td>
+              <td style="padding: 8px; border: 1px solid #ccc;">La naturaleza favorece organismos con características ventajosas</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ccc;">Selección artificial</td>
+              <td style="padding: 8px; border: 1px solid #ccc;">El ser humano elige qué organismos se reproducen</td>
+            </tr>
+          </tbody>
+        </table>
+        <p style="margin-top: 20px;"><strong>Ejemplo:</strong></p>
+        <ul>
+          <li><strong>Natural:</strong> las jirafas con cuello largo sobreviven mejor</li>
+          <li><strong>Artificial:</strong> cruce de perros para obtener una raza específica</li>
+        </ul>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container2">
+      <p>&copy; | Plataforma Educativa FormuClass</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleRespuesta(id) {
+      const respuesta = document.getElementById(id);
+      respuesta.style.display = respuesta.style.display === "none" ? "block" : "none";
+    }
+  </script>
+</body>
+</html>
