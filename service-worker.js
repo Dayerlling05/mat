@@ -5,7 +5,7 @@ const ARCHIVOS_CACHE = [
   '/mat/style.css',
   '/mat/script.js',
   '/mat/manifest.json',
-  'mat/materia.html',
+  'mat/Materia.html',
   '/mat/imagenes/imagen1.png',
   '/mat/imagenes/imagen2.png'
   
@@ -36,4 +36,5 @@ self.addEventListener('fetch', event => {
     })
   );
 });
+
 
