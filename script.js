@@ -11,10 +11,11 @@ function cargarDatos(key) {
 let deferredPrompt;
 const btnInstall = document.getElementById('btnInstall');
 
+btnInstall.hidden = false;
+
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   deferredPrompt = e;
-  btnInstall.hidden = false;
 });
 
 btnInstall.addEventListener('click', () => {
@@ -40,4 +41,5 @@ if ('serviceWorker' in navigator) {
     }
   }
   });
+
 }
