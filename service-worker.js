@@ -2,7 +2,7 @@ const CACHE_NAME = 'mi-app-cache-v6';
 const ARCHIVOS_CACHE = [
   '/mat/',
   '/mat/index.html',
-  '/mat/inicio.html',
+  'inicio.html',
   '/mat/style.css',
   '/mat/script.js',
   '/mat/manifest.json',
@@ -66,5 +66,6 @@ self.addEventListener('fetch', event => {
     })
   );
 });
+
 
 
