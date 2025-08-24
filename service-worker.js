@@ -2,10 +2,15 @@ const CACHE_NAME = 'mi-app-cache-v6';
 const ARCHIVOS_CACHE = [
   '/mat/',
   '/mat/index.html',
+  '/mat/inicio.html',
   '/mat/style.css',
   '/mat/script.js',
   '/mat/manifest.json',
-  'mat/Materia.html',
+  '/mat/Materia.html',
+  '/mat/Matematica.html',
+  '/mat/quimica.html',
+  '/mat/ejerciciosfisica.html',
+  '/mat/biologia.html',
   '/mat/imagenes/imagen1.png',
   '/mat/imagenes/imagen2.png'
   
